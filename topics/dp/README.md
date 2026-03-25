@@ -147,9 +147,13 @@ DP에서 자주 만나는 대표 패턴은 아래와 같다.
 이 topic 폴더는 아래 흐름으로 사용한다.
 
 1. 이 문서를 읽고 DP의 공통 판단 기준을 본다
-2. 실제 문제를 풀기 전에 `problem.md`로 조건을 정리한다
-3. `notes.md`에 상태 정의, 알고리즘 후보, 시간복잡도 판단을 적는다
-4. 풀이 후 어떤 조건에서 다른 알고리즘으로 바뀌는지도 기록한다
+2. `references/practical-checklist.md`로 DP인지 빠르게 판단한다
+3. `references/state-definition-checklist.md`로 상태 정의를 한 줄로 정리한다
+4. 실제 문제를 풀기 전에 `problem.md`로 조건을 정리한다
+5. `notes.md`에 상태 정의, 알고리즘 후보, 시간복잡도 판단을 적는다
+6. `references/implementation-template.md`를 보며 `Solution.java` 구조를 잡는다
+7. `SolutionTest.java`에 `sample / limit / trap` 테스트를 만든다
+8. 풀이 후 어떤 조건에서 다른 알고리즘으로 바뀌는지도 기록한다
 
 ## References
 
@@ -165,6 +169,8 @@ DP에서 자주 만나는 대표 패턴은 아래와 같다.
 
 추가 참고 문서:
 
+- `references/practical-checklist.md`
+- `references/implementation-template.md`
 - `references/state-definition-checklist.md`
 - `references/common-patterns.md`
 - `references/pitfalls.md`

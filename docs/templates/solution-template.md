@@ -97,6 +97,29 @@ public class Solution {
 - `temp`
 - `process`
 
+## Comment Guideline
+
+`Solution.java`에는 짧은 핵심 설명 주석을 넣을 수 있다.
+
+권장되는 위치:
+
+- 상태 정의 바로 위
+- base case 설정 바로 위
+- 점화식 또는 핵심 전이 바로 위
+- 실수하기 쉬운 조건 분기 바로 위
+
+권장 예:
+
+```java
+// dp[i] = i번째 계단을 반드시 밟고 도착했을 때의 최대 점수
+int[] dp = new int[stairCount];
+
+// i번째 계단은 i-2에서 바로 오거나, i-3에서 i-1을 거쳐 올 수 있다.
+dp[index] = Math.max(skipPrevious, takePrevious);
+```
+
+핵심은 코드보다 설명이 많아지지 않게, 이해에 꼭 필요한 부분만 짧게 적는 것이다.
+
 ## DP Style Example
 
 DP 문제라면 이런 식으로 갈 수 있다.

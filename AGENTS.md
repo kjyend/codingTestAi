@@ -26,6 +26,9 @@
 - 이름 규칙과 파일 구조는 `docs/guides/java-naming-conventions.md`를 우선 따른다.
 - 실제 문제를 풀 때 전체 흐름은 `docs/guides/problem-solving-workflow.md`를 우선 따른다.
 - `Solution.java` 구조는 `docs/templates/solution-template.md`를 참고한다.
+- 코드 이해에 꼭 필요한 짧은 설명 주석은 허용한다.
+- 특히 상태 의미, base case, 점화식, 반복 순서, 함정 포인트는 짧게 설명해도 된다.
+- 단, 코드 한 줄마다 설명을 다는 식의 과한 주석은 피한다.
 
 ## Testing Rules
 
@@ -104,6 +107,7 @@
 - 조건이 달라졌다면 바뀌는 풀이
 - 반례와 실수 포인트
 - 시간초과 가능성이 있었던 접근
+- 코드에서 설명 주석이 필요한 포인트
 
 ## Collaboration Rules
 
