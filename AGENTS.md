@@ -24,12 +24,18 @@
 - 알고리즘 핵심 로직은 메서드 단위로 분리해 테스트 가능하게 만든다.
 - 불필요한 프레임워크와 과한 추상화는 피한다.
 - 이름 규칙과 파일 구조는 `docs/guides/java-naming-conventions.md`를 우선 따른다.
+- 실제 문제를 풀 때 전체 흐름은 `docs/guides/problem-solving-workflow.md`를 우선 따른다.
+- `Solution.java` 구조는 `docs/templates/solution-template.md`를 참고한다.
 
 ## Testing Rules
 
 - 새로운 문제 풀이를 추가하면 가능한 한 테스트도 함께 추가한다.
+- 테스트 규칙은 `docs/guides/test-conventions.md`를 우선 따른다.
+- `SolutionTest.java` 구조는 `docs/templates/solution-test-template.md`를 참고한다.
+- 모든 문제는 기본적으로 최소 3개의 테스트를 가진다.
 - 예제 입력과 예제 출력이 있으면 이를 테스트 케이스로 우선 반영한다.
-- 경계 조건과 반례가 보이면 최소 1개 이상 추가 테스트를 제안한다.
+- 범위 또는 시간복잡도 관련 테스트를 가능하면 포함한다.
+- 함정이나 반례가 보이면 최소 1개 이상 테스트로 반영한다.
 - 테스트가 없으면 그 이유를 분명히 설명한다.
 
 ## Documentation Rules
@@ -97,6 +103,7 @@
 - 이 문제의 핵심 포인트
 - 조건이 달라졌다면 바뀌는 풀이
 - 반례와 실수 포인트
+- 시간초과 가능성이 있었던 접근
 
 ## Collaboration Rules
 

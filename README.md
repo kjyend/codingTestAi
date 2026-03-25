@@ -23,12 +23,16 @@ codingTestAi/
 ├─ docs/
 │  ├─ guides/
 │  │  ├─ java-naming-conventions.md
+│  │  ├─ problem-solving-workflow.md
 │  │  ├─ problem-reading-signals.md
-│  │  └─ repository-structure.md
+│  │  ├─ repository-structure.md
+│  │  └─ test-conventions.md
 │  └─ templates/
 │     ├─ topic-template.md
 │     ├─ problem-template.md
-│     └─ notes-template.md
+│     ├─ notes-template.md
+│     ├─ solution-template.md
+│     └─ solution-test-template.md
 ├─ .agents/
 │  └─ skills/
 │     └─ java-coding-test/
@@ -55,6 +59,8 @@ codingTestAi/
 - `.agents/skills/.../SKILL.md`는 반복적으로 요청할 작업을 템플릿화한다.
 - `docs/guides/`는 문제 해석 기준과 저장소 운영 기준을 모아두는 곳이다.
 - `docs/guides/java-naming-conventions.md`는 Java 코드의 이름과 파일 구조를 일정하게 맞추기 위한 기준 문서다.
+- `docs/guides/problem-solving-workflow.md`는 실제 문제를 받을 때 어떤 순서로 작업할지 정리한 문서다.
+- `docs/guides/test-conventions.md`는 문제별 테스트를 어떤 수준까지 작성할지 정하는 기준 문서다.
 - `docs/templates/`는 새 문제를 추가할 때 복사해서 시작하는 기본 문서 템플릿이다.
 - `topics/`는 알고리즘 주제별 기준 문서와 실제 문제 풀이를 함께 관리하는 곳이다.
 
