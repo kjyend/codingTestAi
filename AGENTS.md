@@ -50,6 +50,14 @@
 - 공간복잡도
 - 주의할 반례
 
+## Commit Message Rules
+
+- 커밋 메시지는 기본적으로 `type : 관련 내용 한글` 형식을 사용한다.
+- 타입 선택 기준은 `docs/guides/commit-message-conventions.md`를 우선 따른다.
+- 새 문제 풀이 추가는 `feat`, 테스트만 변경하면 `test`, 동작 변화 없는 구조 개선은 `refactor`를 우선 사용한다.
+- 오답 수정이나 반례 수정은 `fix`, 문서 변경은 `docs`, 도구나 설정 변경은 `chore`를 우선 사용한다.
+- 여러 성격이 섞인 변경이라면 가장 핵심 목적 하나를 기준으로 타입을 고른다.
+
 ## Problem Folder Rules
 
 - 문제 하나당 하나의 폴더를 만든다.

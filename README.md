@@ -23,6 +23,7 @@ codingTestAi/
 ├─ docs/
 │  ├─ guides/
 │  │  ├─ java-naming-conventions.md
+│  │  ├─ commit-message-conventions.md
 │  │  ├─ problem-solving-workflow.md
 │  │  ├─ problem-reading-signals.md
 │  │  ├─ repository-structure.md
@@ -61,6 +62,7 @@ codingTestAi/
 - `docs/guides/java-naming-conventions.md`는 Java 코드의 이름과 파일 구조를 일정하게 맞추기 위한 기준 문서다.
 - `docs/guides/problem-solving-workflow.md`는 실제 문제를 받을 때 어떤 순서로 작업할지 정리한 문서다.
 - `docs/guides/test-conventions.md`는 문제별 테스트를 어떤 수준까지 작성할지 정하는 기준 문서다.
+- `docs/guides/commit-message-conventions.md`는 커밋 메시지 타입과 작성 형식을 통일하기 위한 기준 문서다.
 - `docs/templates/`는 새 문제를 추가할 때 복사해서 시작하는 기본 문서 템플릿이다.
 - `topics/`는 알고리즘 주제별 기준 문서와 실제 문제 풀이를 함께 관리하는 곳이다.
 
