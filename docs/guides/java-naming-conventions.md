@@ -40,6 +40,19 @@ topics/dp/problems/longest-increasing-subsequence/
 - 공백은 쓰지 않는다
 - 의미가 너무 짧거나 모호한 이름은 피한다
 
+넓은 topic은 아래처럼 내부 category를 한 단계 더 둘 수 있다.
+
+```text
+topics/{topic}/problems/{category}/{problem-slug}/
+```
+
+예:
+
+```text
+topics/graph/problems/shortest-path/hide-and-seek/
+topics/graph/problems/minimum-spanning-tree/network-connection/
+```
+
 ## Package Rule
 
 package는 경로를 따라가되, Java 관례에 맞게 소문자와 점 표기를 사용한다.
@@ -63,6 +76,19 @@ package topics.dp.problems.longest_increasing_subsequence;
 - 하이픈은 package에서 사용할 수 없으므로 underscore로 바꾼다
 - package는 폴더 구조를 최대한 반영한다
 - 특별한 이유가 없다면 package를 생략하지 않는다
+
+내부 category를 쓰는 경우는 아래처럼 한 단계 더 반영한다.
+
+```java
+package topics.<topic>.problems.<category>.<problem_slug>;
+```
+
+예:
+
+```java
+package topics.graph.problems.shortest_path.hide_and_seek;
+package topics.graph.problems.minimum_spanning_tree.network_connection;
+```
 
 ## File And Class Rule
 

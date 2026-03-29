@@ -66,10 +66,12 @@
 - `notes.md`에는 알고리즘 후보, 선택 이유, 실패한 접근, 반례, 복기 내용을 정리한다.
 - `Solution.java`는 실제 풀이 코드다.
 - `SolutionTest.java`는 예제와 반례를 검증하는 테스트 파일이다.
+- graph처럼 범위가 넓은 topic은 `problem.md`와 `notes.md`에 `Problem Category`와 `Primary Algorithm`을 명시한다.
 
 ## Repository Organization Rules
 
 - 문제는 우선 `topics/topic/problems/problem-slug` 구조로 분류한다.
+- topic이 매우 넓으면 `topics/topic/problems/category/problem-slug` 구조를 사용할 수 있다.
 - 폴더 깊이는 과도하게 늘리지 않는다.
 - 각 topic 폴더의 상위 문서에 공통 개념과 중요한 포인트를 정리한다.
 - 난이도나 날짜는 폴더보다 문서 메타 정보로 남기는 것을 우선한다.

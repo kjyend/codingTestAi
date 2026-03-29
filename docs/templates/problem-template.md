@@ -3,9 +3,13 @@
 ## Basic Info
 
 - Source:
+- Problem Number:
 - Problem Name:
 - URL:
-- Topic:
+- Primary Topic:
+- Related Topics:
+- Problem Category:
+- Primary Algorithm:
 - Difficulty:
 
 ## Problem Summary

@@ -66,6 +66,40 @@ topics/
 - 난이도, 출처, 상태, 풀이 일자는 `problem.md` 안에 적는다
 - 문제를 읽고 중요하게 봐야 하는 포인트는 `notes.md`에 남긴다
 
+## Optional Internal Category
+
+topic이 너무 넓으면 `problems/` 아래에 내부 범주를 한 단계 더 둘 수 있다.
+
+예:
+
+```text
+topics/
+└─ graph/
+   ├─ README.md
+   ├─ references/
+   └─ problems/
+      └─ shortest-path/
+         └─ hide-and-seek/
+            ├─ problem.md
+            ├─ notes.md
+            ├─ Solution.java
+            └─ SolutionTest.java
+```
+
+이 방식은 아래 상황에서만 권장한다.
+
+- topic 자체가 매우 넓을 때
+- 내부 알고리즘 계열이 분명히 나뉠 때
+- 한 폴더에 문제 수가 빠르게 많아질 때
+
+예:
+
+- `graph`
+- `string`
+- `data-structure`
+
+핵심은 "필요할 때만 한 단계 더"다.
+
 ## Topic File Roles
 
 각 topic 폴더는 아래 역할을 가진다.

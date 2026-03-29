@@ -43,11 +43,12 @@ codingTestAi/
 │  └─ {topic}/
 │     ├─ README.md
 │     ├─ problems/
-│     │  └─ {problem-slug}/
-│     │     ├─ problem.md
-│     │     ├─ notes.md
-│     │     ├─ Solution.java
-│     │     └─ SolutionTest.java
+│     │  └─ {problem-category}/
+│     │     └─ {problem-slug}/
+│     │        ├─ problem.md
+│     │        ├─ notes.md
+│     │        ├─ Solution.java
+│     │        └─ SolutionTest.java
 │     └─ references/
 ├─ src/
 └─ build.gradle
@@ -106,11 +107,12 @@ topics/
    ├─ README.md
    ├─ references/
    └─ problems/
-      └─ target-number/
-         ├─ problem.md
-         ├─ notes.md
-         ├─ Solution.java
-         └─ SolutionTest.java
+      └─ linear-dp/
+         └─ target-number/
+            ├─ problem.md
+            ├─ notes.md
+            ├─ Solution.java
+            └─ SolutionTest.java
 ```
 
 각 topic 폴더의 역할은 아래와 같다.
@@ -120,6 +122,14 @@ topics/
 - `problems/`: 실제 문제별 작업물
 
 난이도, 출처, 날짜, 관련 알고리즘은 폴더를 늘리기보다 `problem.md`나 `notes.md` 내부 메타 정보로 적는 편이 더 관리하기 쉽다.
+
+단, 범위가 넓은 topic은 `problems/` 아래에 내부 범주를 한 단계 더 둘 수 있다.
+
+예:
+
+- `topics/graph/problems/traversal/...`
+- `topics/graph/problems/shortest-path/...`
+- `topics/graph/problems/minimum-spanning-tree/...`
 
 ## Overlapping Problems
 

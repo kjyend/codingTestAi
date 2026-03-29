@@ -1,5 +1,11 @@
 # Notes Template
 
+## Classification
+
+- Primary Topic:
+- Problem Category:
+- Primary Algorithm:
+
 ## Core Signals
 
 - 문제에서 보이는 핵심 신호:
